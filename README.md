@@ -4,6 +4,10 @@ Bash shell wrapper to build whole-genome alignments with lastz
 # Dependencies
 ## Install the `lastz` version provided
 I added some modification to the source code in lastz to that the MAF output is compatible wth `MutiZ` and `tba`.
+Use this branch:
+```
+git clone https://github.com/santiagosnchez/lastz-1.git
+```
 
 ## Install `gnu-parallel`
 The script requires [GNU `parallel`](https://www.gnu.org/software/parallel/) to be installed in order for the `-threads` argument to work.
